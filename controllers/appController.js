@@ -1,18 +1,18 @@
 const response  = require("express");
 const fs = require("fs");
 
-    const inicio = fs.readFileSync("./index.html");
-    const contacto = fs.readFileSync("./contacto.html");
-    const horario = fs.readFileSync("./horario.html");
+    const acceso = fs.readFileSync("./acceso.html");
+    const registro = fs.readFileSync("./registro.html");
+    const conoceme = fs.readFileSync("./conoceme.html");
 
-exports.inicio = (request, response) => {
-    response.write(inicio);
+exports.acceso = (request, response) => {
+    response.write(acceso);
 }
 
-exports.contacto = (request, response) => {
-    response.write(contacto);
+exports.registro = (request, response) => {
+    response.write(registro);
 }
 
-exports.horario = (request, response) => {
-    response.write(horario);
+exports.conoceme = (request, response) => {
+    response.write(conoceme);
 }

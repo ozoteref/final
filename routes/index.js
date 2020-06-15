@@ -4,11 +4,11 @@ const appController = require("../controllers/appController");
 
 module.exports = function(){
 
-    routes.get('/',appController.inicio);
+    routes.get('/',appController.acceso);
     
-    routes.get('/contacto',appController.contacto);
+    routes.get('/registro',appController.registro);
     
-    routes.get('/horario',appController.horario);
+    routes.get('/conoceme',appController.conoceme);
 
     return routes;
 }
