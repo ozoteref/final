@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-final1",
+  "version": "1.0.0",
+  "description": "proyecto final",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozoteref/final.git"
+  },
+  "author": "Alfredo Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozoteref/final/issues"
+  },
+  "homepage": "https://github.com/ozoteref/final#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
